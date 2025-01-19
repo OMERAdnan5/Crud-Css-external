@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        .container{
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            height:62rem;
+            background-image:url("darksky.jpg");
+            background-repeat: no-repeat;
+            background-size:100% 100%;
+         }   
+        
+        .container form{
+            padding:5rem 7rem;
+            background-color:#070726;
+            border:none;
+            border-radius:1rem;
+        }
+        .container h2{
+            font-size:2.5rem;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding:.5rem;
+            padding-bottom:2rem;
+
+        }
+        .container input{
+            border:0.2rem solid whitesmoke;
+            border-radius:0.7rem;
+            width:100%;
+            padding:.75rem;
+            margin-top:.75rem;
+            margin-bottom: .75rem;
+            
+           
+        
+        }
+        .container button{
+            padding: 1rem 3rem;
+            color: white;
+            background-color: rgb(43, 154, 16);
+            border:none;
+            border-radius:1rem;
+            margin-top:2rem;
+            margin-left:2.5rem;
+            font-size:1rem
+
+
+        }
+        .container button:hover{
+            background-color: rgb(14, 134, 14);
+        }
+        .container label{
+            font-size: 1.5rem;
+            color: white;
+            font-family: monospace;
+            margin-left:.75rem;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form action="#">
+            <h2>Employee</h2>
+            <label for="name">Name:</label><br>
+            <input type="text"><br>
+            <label for="email">Email:</label><br>
+            <input type="email"><br>
+            <label for="tel">Phone:</label><br>
+            <input type="tel"><br>
+            <button type="submit">Add Employee</button>
+        </form>
+    </div>
+    
+</body>
+</html>
